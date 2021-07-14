@@ -1,0 +1,65 @@
+ /*----------------------
+ Responsive for Mobile 
+ -----------------------*/
+ @media (max-width:688px) {
+    .top-section{
+        flex-direction: column;
+    }
+    .man img{
+       width: 300px;
+    }
+    .ball img{
+       width: 100px;
+       transform: translate(-10px, -110px);
+    }
+    .title{
+        font-size: 20px;
+        color: white;
+        line-height: 54px;
+        }
+    /* Player grid section started   */
+    .players{
+        grid-template-columns: 330px;
+    }
+    .player img{
+     height: 256px;
+    }
+    .details h1{
+        margin-top: 16px;
+        margin-bottom: 0;
+        font-size: 22px;  
+    }
+    .details p{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    /* features title styles */
+    .Features-title h1{
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .feature-games{
+        flex-direction: column;
+        align-items: center;
+          
+    }
+    .information p{
+        font-size: 8px;
+    }
+    /* LFC */
+    aside{
+        flex-direction: column;
+        align-items: center;
+    }
+    /* Footer */
+    .logo img{
+        width: 250px;
+    }
+    .social-icon{
+        font-size: 25px;
+        gap: 0 20px;
+    }
+    .copyright{
+        font-size: 13px;
+    }
+}
