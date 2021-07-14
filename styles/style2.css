@@ -48,6 +48,9 @@
         height: 400px;
  
     }
+    .information{
+        width: 360px;
+    }
     .information p{
         font-size: 8px;
     }
