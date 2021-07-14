@@ -97,17 +97,19 @@ body{
 /*--------------------
 Gemes and Featured
 ---------------------- */
+.feature-games{
+    margin-bottom: 164px;
+}
 .information h1{
     text-align: justify;
-    color: rgb(13, 238, 5);
+    color: rgb(0, 0, 0);
     font-weight: 900;
     text-align: center;
 }
 .information p{
     text-align: justify;
-    color: rgb(226, 250, 10);
+    color: rgb(255, 255, 255);
     text-align: center;
-    font-weight: 700;
     font-size: 12px;
 }
 .frame{
@@ -150,3 +152,37 @@ Gemes and Featured
     transform: scale(1.2);
     transition: .7s ease-in;
 }
+
+/*-----------------------
+ footer area style started
+ --------------------------*/
+ .footer-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .logo img{
+    width: 438px;
+    margin-bottom: 20px;
+ }
+ .social-icon{
+    font-size: 32px;
+    display: flex;
+    gap: 0 30px;
+ }
+.fa-instagram-square:hover{
+    color: #cc0c82;
+ }
+.fa-facebook-square:hover{
+    color: rgb(52, 52, 253);
+ }
+.fa-twitter-square:hover{
+     color: rgb(32, 90, 250);
+ }
+.fa-youtube-square:hover{
+     color: rgb(241, 11, 11);
+ }
+ .copyright{
+     margin-top: 1.298px;
+     font-size: 18px;
+ }
