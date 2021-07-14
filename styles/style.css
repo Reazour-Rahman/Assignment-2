@@ -4,26 +4,54 @@ body{
 /*-----------------
  intro section style
  ------------------ */
- .intro{
-     width: 100%;
-     height: 700px;
-     background-color: #2D25A0;
-     margin-bottom: 50px;
- }
- .title{
-     font-size: 34px;
- }
- .button a,i{
-     color: white;
+.intro{
+    width: 100%;
+    height: 700px;
+    background-color: #2D25A0;
+    margin-bottom: 50px;
+}
+.top-section{
+     display: flex;
+     justify-content: space-around;
+     align-content: center;
+     align-items: center;
+}
+.title{
+    font-size: 34px;
+    color: white;
+    line-height: 74px;
+    }
+.button-arrow a{
+    color: white;
     text-decoration: none;
-    font-size: 16px;
-    background-color: #E02C6D;
-    padding: 10px;
- }
- /* main section */
- .all-players{
+    /* margin-left: 30px; */
+    background-color:#E02C6D;
+    padding: 10.8px 23.34px  ;
+    }
+/* 2d transform and transition started */
+.man{
+    transform: rotate(-29deg);
+}
+.man img{
+    width: 560px;  
+    transition: transform .5s;  
+}
+.ball img{
+    width: 170px;
+    position: relative;
+    top: 260px;
+    transition: transform .3s;
+}
+.intro:hover .man img{
+    transform: rotate(49deg);  
+}
+.intro:hover .ball img{
+    transform: translate(0, -270px) rotate(80deg); 
+    transition-delay: .1s;  
+}
+/* 2d transform and transition ended */
 
- }
+ /* main section */
  .players{
    display: grid;
    grid-template-columns: 330px 330px 330px;
