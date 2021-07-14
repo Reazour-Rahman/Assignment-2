@@ -43,6 +43,11 @@
         align-items: center;
           
     }
+    .frame{
+        width: 350px;
+        height: 400px;
+ 
+    }
     .information p{
         font-size: 8px;
     }
